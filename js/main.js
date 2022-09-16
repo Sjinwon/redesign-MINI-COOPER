@@ -119,7 +119,7 @@ $(function(){
 	});
 	})
 
-	window.addEventListener('load', function(){
+	/* window.addEventListener('load', function(){
 		// btn-11
 		var movingBar = new MovingBar('.btn-11');
 	});
@@ -146,7 +146,7 @@ $(function(){
 			bar.style.width = width + 'px';
 			bar.style.left = left + 'px';
 		}
-	}
+	} */
 	
 
 	
