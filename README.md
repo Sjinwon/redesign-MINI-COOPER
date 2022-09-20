@@ -1,4 +1,4 @@
-[![MiniCooper](./favicon.ico)](https://sjinwon.github.io/-REDESIGN-MINI-COOPER/)
+[![MiniCooper](./favicon.ico)](https://sjinwon.github.io/redesign-MINI-COOPER/)
 
 # MiniCooper Web Redesign
 
@@ -156,11 +156,55 @@
 			});
   		})
   		
-  		
-  		
-  		
 	</script>
 ```
+<br>
+
+### 사용 예
+
+``` html
+<div class="slide-group">
+        <div class="slide slide1">
+          <div class="inner">
+            <div class="slide-text-box">
+              <span class="slide-main-typ">MEET THE NEW MINI RESOLUTE EDITION.</span>
+              <p class="slide-sub-typ">STYLE ICONS. RACING GENES.</p>
+            </div>
+            <div class="slide-btn">
+              <button class="view-more">자세히 보기</button>
+              <button class="shorcut">MINI SHOP ONLINE 바로가기</button>
+            </div>
+          </div>
+        </div>
+        <div class="slide slide2">
+          <div class="inner">
+            <div class="slide-text-box">
+              <span class="slide-main-typ">ELECTRIC DRIVING, MINIFIED</span>
+              <p class="slide-sub-typ">THE NEW MINI ELECTRIC.</p>
+            </div>
+            <div class="slide-btn">
+              <button class="view-more">자세히 보기</button>
+              <button class="shorcut">MINI SHOP ONLINE 바로가기</button>
+            </div>
+          </div>
+        </div>
+        <div class="slide slide3">
+          <div class="inner">
+            <div class="slide-text-box">
+              <span class="slide-main-typ">MINI JCW ANNIVERSARY EDITION</span>
+              <p class="slide-sub-typ">DRIVE A PIECE OF MINI HISTORY.</p>
+            </div>
+            <div class="slide-btn">
+              <button class="view-more">자세히 보기</button>
+              <button class="shorcut">MINI SHOP ONLINE 바로가기</button>
+            </div>
+          </div>
+        </div>
+				
+```
+
+
+
 
 <br>
 
