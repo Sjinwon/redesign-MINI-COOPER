@@ -62,7 +62,7 @@ header nav.menu div.header-logo{
 header nav.menu .header-logo a img{
   display: block;width: 100%;
 }
-
+header nav.menu > ul.gnb > li > .sub-contents .contents-box{}
 /* header manu - info */
 header div.info{
   position: absolute;right: 20px;top: 25px;display: flex;
@@ -214,6 +214,9 @@ div.img-box div ul li a img{
 .section4 .img-box .left-box ul li{
   width: 50%;height: 33.33333333333333%;overflow: hidden;
 }
+.section4 .img-box .left-box ul li a{
+  width: 100%;height: 100%;
+}
 .section4 .img-box .left-box ul li a img{
   width: 100%;height: 100%;object-fit: cover;transition: all 0.2s;
 }
@@ -229,58 +232,22 @@ div.img-box div ul li a img{
 .section4 .img-box .right-box ul li{
   width: 50%;height: 33.33333333333333%;overflow: hidden;
 }
+.section4 .img-box .right-box ul li a{
+  width: 100%;
+  height: 100%;
+}
 .section4 .img-box .right-box ul li a img{
   width: 100%;height: 100%;object-fit: cover;transition: all 0.2s;
 }
 .section4 .img-box .right-box ul li a:hover img{
   transform: scale(1.2);filter: grayscale(1);
 }
-/* 33.33333333333333% */
-/* 66.66666666666667% */
-/* 
-div.left-box ul li a.section4-img1{background-image: url(../images/Mini-cooper-jcw.gif);}
-div.left-box ul li a.section4-img2{background-image: url(../images/contents4-img5.jpg);}
-div.left-box ul li a.section4-img3{background-image: url(../images/contents4-img6.jpg);}
-div.right-box ul li a.section4-img4{background-image: url(../images/contents4-img1.jpg);}
-div.right-box ul li a.section4-img5{background-image: url(../images/contents4-img2.jpg);}
-div.right-box ul li a.section4-img6{background-image: url(../images/contents4-img3.jpg);}
-div.right-box ul li a.section4-img7{background-image: url(../images/contents4-img4.jpg);}
-div.right-box ul li a.section4-img8{background-image: url(../images/contents4-img7.jpg);}
-div.right-box ul li a.section4-img9{background-image: url(../images/contents4-img8.jpg);}
-
-.section4 .img-box{
-  display: flex;
-}
-.section4 .img-box .left-box{
-  width: 50%;height: 100%;
-}
-.left-box ul li{
-  height: 360px;
-}
-.left-box ul li a{
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-.left-box ul{
-  display: flex;
-}
-a.section4-img1{
-  flex: 2;
-}
-a.section4-img2{
-  flex: 1;
-}
-a.section4-img3{
-  flex: 1;
-} */
 
 /* section5 footer area  */
 .section5 .footer-logo{width: 100%;display: flex;justify-content: center;margin-bottom: 30px;}
 .section5 .footer-logo h2{width: 100px;}
 .section5 .footer-logo h2 a img{width: 100%;}
-.section5 .line{border-top: 1px solid #ff5d5d;width: 100%;border-bottom: 1px solid #ff5d5d;}
+.section5 .line{border-top: 1px solid #dddddd;width: 100%;border-bottom: 1px solid #dddddd;}
 .section5 .line nav.footer-menu{display: flex;justify-content: center;}
 .section5 .line nav.footer-menu ul{
   width: 1440px;
