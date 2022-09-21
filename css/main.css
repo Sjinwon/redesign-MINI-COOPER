@@ -29,7 +29,7 @@
   padding: 0;margin: 0;list-style: none;text-decoration: none;color: #333;font-style: normal;font-family: "SUIT-Regular";
 }
 
-/* #fullpage{width: 100vw;} */
+
 /* header */
 header{
   width: 100%;height: 80px;background: rgba(0, 0, 0, 0.5);position: fixed;z-index: 10;min-width: 1440px;/* display: none; */
@@ -62,8 +62,6 @@ header nav.menu div.header-logo{
 header nav.menu .header-logo a img{
   display: block;width: 100%;
 }
-header nav.menu > ul.gnb > li > .sub-contents .contents-box{}
-/* header manu - info */
 header div.info{
   position: absolute;right: 20px;top: 25px;display: flex;
 }
@@ -76,6 +74,7 @@ header div.info div{
 header div.info div:hover{
   color: #333;
 }
+
 /* fullpage 공통 */
 #fullpage .section{
   width: 100vw;height: 100vh;
@@ -184,9 +183,6 @@ div.section2 div.inner div.btn button:hover{
 .youtube .youtube-area #player{
   width: 80%;height: 80%;position: absolute;top: 10%;left: 0;right: 0;margin: auto;
 }
-/* .section3 .youtube .youtube-cover{
-  position: absolute;width: 100%;height: 100%;background: rgba(0, 0, 0,0);top: 0;left: 0;
-} */
 
 /* section4 img array */
 /* section4 공통 */
